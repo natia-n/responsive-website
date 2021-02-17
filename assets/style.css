@@ -175,19 +175,52 @@
     color: #7E92AC;
 }
 
-.section-2 .about-us div{
+.section-2 .about-us .about{    
     display: inline-block;
     width: 414px;
     height: 431px;
     text-align: left;
     background-color: #FFFFFF;
     border-radius: 20px;
-    margin: 30px;
+    margin: 131px 30px;
+}
+
+.section-2 .about-us .relative{
+    display: inline-block;
+    position: relative;
+    margin-top: 87px;
+    margin-left: 62px;    
+}
+
+.section-2 .about-us .backround-img{
+    display: inline-block;
+    width: 73px;
+    height: 70px;
+    background-color: #875FFF;
+    opacity: 10%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.section-2 .about-us .green{
+    background-color: #57E5AC;
+}
+
+
+
+.section-2 .about-us .yelow{
+    background-color: #FFE014;
 }
 
 .section-2 .about-us img{
-    margin-left: 62px;
-    margin-top: 87px;
+    position: absolute;
+    left: 17px;
+    top: 15px;
+}
+
+.section-2 .about-us .image-2{
+    left: 12px;
+    top: 19px;
 }
 
 .section-2 .about-us h3{
