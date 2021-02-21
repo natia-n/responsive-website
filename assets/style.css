@@ -20,9 +20,10 @@
     font-weight:normal;
 }
 
+/* head */
+
 .logo{
     display: inline-block;
-    /* margin-left: 278px; */
     margin-top: 43px;
 }
 
@@ -144,6 +145,9 @@
 
 .head .ikone{
     margin-bottom: 182px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .head .ikone img{
@@ -195,31 +199,38 @@
 
 .section-2 .about-us .backround-img{
     display: inline-block;
+    position: relative;
     width: 73px;
     height: 70px;
-    background-color: #875FFF;
-    opacity: 10%;
+    background-color: rgb(135 95 255 / 10%);
     text-align: center;
     border-radius: 15px;
 }
 
 .section-2 .about-us .green{
-    background-color: #57E5AC;
+    background-color: rgb(87 229 172 / 10%);
 }
 
 .section-2 .about-us .yelow{
-    background-color: #FFE014;
+    background-color: rgb(255 224 20 / 10%);
 }
 
 .section-2 .about-us img{
     position: absolute;
-    left: 17px;
-    top: 15px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .section-2 .about-us .image-2{
-    left: 12px;
-    top: 19px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 }
 
 .section-2 .about-us h3{
@@ -240,4 +251,168 @@
     margin-left: 62px;
     margin-right: 61px;
     line-height: 1.5;
+}
+
+/*section-3*/
+
+.section-3{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    padding-top: 135px;
+    padding-bottom: 105px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.section-3 div{
+    display: inline-block;
+    width: 812px;
+    height: 583px;
+}
+
+.div-white{
+    display: inline-block;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 20px 40px rgb(36 38 114 / 11%);  
+}
+
+.section-3 .text h3{
+    font-family: segoe-ui;
+    font-weight: bold;
+    font-size: 64px;
+    color:#040404;  
+    margin-top: 113px;  
+    margin-bottom: 42px;
+}
+
+.section-3 .text p{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color:#7E92AC;    
+    line-height: 2;
+}
+
+.section-3 .text button{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #572BD9;
+    border: 0px;
+    border-radius: 10px;
+    width: 222px;
+    height: 68px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/*section-4*/
+
+.section-4{
+    background-image: url(./images/Mask\ Group\ 56.png);
+    height: 629px;
+    background-position: center;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-top: 93px;
+    padding-bottom: 204px;
+}
+
+.section-4 h2{
+    font-family: segoe-ui;
+    font-weight: bold;
+    font-size: 64px;
+    color: #FFFFFF;  
+    margin-bottom: 60px;
+}
+
+.section-4 p{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color:#FFFFFF;    
+    line-height: 2;
+}
+
+.section-4 .yelow{
+    margin-top: 60px;
+    background-color: #FFDD33;    
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    width: 222px;
+    height: 68px;
+}
+
+
+/*section-5*/
+
+.section-5{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #FFFFFF;
+    padding-top: 153px;
+    padding-bottom: 169px;
+    padding-left: 279px;
+    padding-right: 140px;    
+}
+
+.section-5 div{
+    display: inline-block;
+}
+
+.section-5 img{
+    vertical-align: top;
+    margin-right: 27px;
+}
+
+.section-5 h2{
+    font-family: segoe-ui;
+    font-weight: bold;
+    font-size: 64px;
+    color: #040404;  
+    margin-bottom: 47px;
+    display: inline-block;
+}
+
+.section-5 p{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 16px;
+    color:#7E92AC;    
+    line-height: 1.7;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.section-5 .text div{
+    margin-top: 28px;
+    display: block;
+}
+
+.section-5 .text button{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #572BD9;
+    border: 0px;
+    border-radius: 10px;
+    width: 222px;
+    height: 68px;
+    margin-top: 65px;
+    cursor: pointer;
+}
+
+.div-white{
+    width: 820px;
+    height: 583px;
 }
