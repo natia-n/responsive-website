@@ -35,7 +35,7 @@
 .head{
     height: 854px;
     background-image: url(./images/Mask\ Group\ 1.png); 
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
     text-align: center;
 }
@@ -310,11 +310,12 @@
 .section-4{
     background-image: url(./images/Mask\ Group\ 56.png);
     height: 629px;
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
     text-align: center;
     padding-top: 93px;
     padding-bottom: 204px;
+    box-sizing: border-box;
 }
 
 .section-4 h2{
@@ -499,7 +500,7 @@
 
 .section-7{
     background-image: url(./images/Mask\ Group\ 58.png);
-    background-position: center;
+    background-position: center bottom;
     background-size: cover;
     text-align: center;
     padding-top: 118px;
@@ -624,3 +625,303 @@
 }
 
 /* section-8 */
+
+.section-8 .questions{
+    text-align: center;
+    background-color: rgb(232 241 253 / 14%)
+}
+
+.section-8 .questions h2{
+    font-family: segoe-ui;
+    font-weight: bold;
+    font-size: 64px;
+    color: #000000; 
+    margin-top: 135px;
+}
+
+.section-8 .questions>p{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #000000; 
+    margin-top: 43px;
+    margin-bottom: 164px;
+}
+
+.section-8 .questions .question{
+    width: 653px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+.section-8 .questions .question div{
+    display: inline-block;
+    width: 545px;
+    margin-left: 32px;
+}
+
+.section-8 .questions .question img{
+    vertical-align: top;
+}
+
+.section-8 .questions .question h3{
+    display: inline-block;
+    font-family: segoe-ui;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000; 
+    margin-top: 15px;
+}
+
+.section-8 .questions .question p{
+    display: inline-block;
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7E92AC;
+}
+
+.questions>div{
+    display: inline-block;
+    margin: 0px 39px;
+    margin-bottom: 237px;
+}
+
+.section-8 .input-message{
+    padding-top: 119px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.section-8 .input-message h2{
+    font-family: segoe-ui;
+    font-weight: bold;
+    font-size: 64px;
+    color: #000000; 
+}
+
+.section-8 .input-message p{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #7E92AC; 
+    margin-top: 31px;
+    margin-bottom: 43px;
+}
+
+.section-8 .input-message input{
+    display: block;
+    margin: 0 auto;
+    width: 704px;
+    height: 75px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #7E92AC; 
+    padding-left: 38px;
+    box-sizing: border-box;
+    background-color: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+}
+
+.section-8 .input-message textarea{  
+    width: 704px;
+    height: 279px;
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #7E92AC; 
+    padding-top:  25px;
+    padding-left: 38px;
+    box-sizing: border-box;
+    background-color: #FCFDFF;
+    border: 1px solid #C3CCE8;
+    border-radius: 10px;
+    resize: none;
+}
+
+.section-8 .input-message button{ 
+    display: block; 
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #572BD9;
+    border: 0px;
+    border-radius: 10px;
+    width: 222px;
+    height: 68px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 74px;    
+}
+
+/* section-9 */
+
+.section-4.section-9{
+    background-image: url(./images/Mask\ Group\ 57.png);
+    padding-top: 242px;
+    height: 642px;
+    box-sizing: border-box;
+}
+
+/* section-10 */
+
+.section-10{
+    padding-top: 118px;
+    padding-bottom: 102px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 133px;
+}
+
+.section-10 .about{
+    width: 310px;
+}
+
+.section-10 .about h2{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000000; 
+    margin-bottom: 42px;
+}
+
+.section-10 .about p{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #7E92AC; 
+}
+
+.section-10 .link{
+    width: 226px;
+}
+
+.section-10 .link h2{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000000; 
+    margin-bottom: 42px;
+}
+
+.section-10 .link a{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #7E92AC; 
+    text-decoration: none;
+}
+
+.section-10 .link ul{
+    padding: 0px;
+}
+
+.section-10 .link ul li{
+    padding: 8px 0px;
+}
+
+.section-10 .newsletter h2{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 30px;
+    color: #000000; 
+    margin-bottom: 44px;
+}
+
+.section-10 .newsletter input{
+    width: 343px;
+    height: 72px;
+    border: 1px solid #7E92AC;
+    border-radius: 10px;
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #7E92AC; 
+    padding-left: 33px;
+    box-sizing: border-box;
+}
+
+.section-10 .newsletter .submit{
+    display: inline-block;
+    width: 219px;
+    height: 72px;
+    background-color: #FEB301;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 21px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-left: -23px;
+}
+
+.section-10 .newsletter .submit span{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-right: 31px;
+}
+
+.section-10 .newsletter .social-network img{
+    cursor: pointer;
+}
+
+.section-10 .newsletter .social-network{
+    margin-top: 53px;
+}
+
+.section-10 .newsletter .social-network .link-2{
+    margin: 0px 20px;
+}
+
+/* section-11 */
+
+.section-11{
+    padding-top: 42px;
+    padding-bottom: 50px;
+    padding-left: 278px;
+    padding-right: 278px;
+    background-color: #5B2AEE;
+}
+
+.section-11>a{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.section-11 ul{
+    display: inline-flex;
+    justify-content: center;
+    gap: 35px;
+    float: right;
+}
+
+.section-11 ul li a{
+    font-family: segoe-ui;
+    font-weight: normal;
+    font-size: 20px;
+    color: #F0F4FA;
+    text-decoration: none;
+}
+
+.section-11 ul li .home{
+    font-family: segoe-ui;
+    font-weight: bold;
+    font-size: 20px;
+    color: #F0F4FA;
+    text-decoration: none;
+}
+
+button, input, textarea{
+    outline: none;
+}
