@@ -36,7 +36,7 @@
     height: 854px;
     background-image: url(./images/Mask\ Group\ 1.png); 
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
 }
 
@@ -50,6 +50,7 @@
 .head .nav ul{
     display: inline-flex;
     flex-wrap: wrap;
+    gap: 27px;
 }
 
 .head .logo span{
@@ -59,16 +60,13 @@
     vertical-align: middle;
 }
 
-.head nav li{
-    margin: 0px 17px;
-}
-
 .head nav a{
     font-family: segoe-ui;
     font-weight: normal;
     font-size: 20px;
     color:#F0F4FA;  
     text-decoration: none;
+    padding: 10px;
 }
 
 .head nav .home{
@@ -91,14 +89,11 @@
     border-radius: 10px;
     border: 0px;
     margin-left: 17px;
+    cursor: pointer;
 }
 
-.line{
-    width: 60px;
-    height: 5px;
-    background-color: #FFDD33;
-    margin-top: 10px;
-    border-radius: 24px;
+.head nav a:hover {
+    border-bottom: 5px solid #FFDD33;
 }
 
 .head .section-1{
@@ -131,6 +126,7 @@
     border-radius: 10px;
     width: 222px;
     height: 68px;
+    cursor: pointer;
 }
 
 .head .section-1 .yelow{
@@ -257,13 +253,12 @@
 
 .section-3{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     background-color: #FFFFFF;
+    gap: 118px;
     padding-top: 135px;
     padding-bottom: 105px;
-    padding-left: 140px;
-    padding-right: 140px;
 }
 
 .section-3 div{
@@ -316,7 +311,7 @@
     background-image: url(./images/Mask\ Group\ 56.png);
     height: 629px;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
     padding-top: 93px;
     padding-bottom: 204px;
@@ -349,6 +344,7 @@
     border-radius: 10px;
     width: 222px;
     height: 68px;
+    cursor: pointer;
 }
 
 
@@ -356,13 +352,12 @@
 
 .section-5{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 130px; 
     background-color: #FFFFFF;
     padding-top: 153px;
-    padding-bottom: 169px;
-    padding-left: 279px;
-    padding-right: 140px;    
+    padding-bottom: 169px;      
 }
 
 .section-5 div{
@@ -438,6 +433,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 39px;
 }
 
 .section-6 .testimonials div{
@@ -448,7 +444,6 @@
     box-sizing: border-box;
     background-color: #FFFFFF;
     position: relative;
-    margin: 0px 19px;
 }
 
 .section-6 .testimonials h3{
@@ -505,7 +500,7 @@
 .section-7{
     background-image: url(./images/Mask\ Group\ 58.png);
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
     padding-top: 118px;
     padding-bottom: 181px;
@@ -532,10 +527,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 11px;
 }
 
 .section-7 .level .level-1{
-    margin: 11px;
     width: 440px;
     background-color: #FCFDFF;
     border-radius: 10px;
