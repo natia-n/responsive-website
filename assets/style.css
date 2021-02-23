@@ -37,20 +37,27 @@
     background-image: url(./images/Mask\ Group\ 1.png); 
     background-position: center bottom;
     background-size: cover;
-    text-align: center;
+    /* text-align: center; */
+    padding: 0px 150px;
+    box-sizing: border-box;
 }
 
 .head .nav{
     display: inline-block;
-    margin-left: 247px;
+    margin-left: 150px;
     margin-top: 48px;
     vertical-align: top;
+}
+
+.head .nav-2{
+    display: none;
 }
 
 .head .nav ul{
     display: inline-flex;
     flex-wrap: wrap;
     gap: 27px;
+    padding: 0px;
 }
 
 .head .logo span{
@@ -97,7 +104,8 @@
 }
 
 .head .section-1{
-    text-align: center;    
+    text-align: center;   
+    margin-bottom: 52px; 
 }
 
 .head .section-1 h1{
@@ -137,17 +145,24 @@
 
 .head .image{
     margin-top: 52px;
+    width: 1099px;
+    margin: auto;
+}
+
+.head .image img{
+    width: 100%;
 }
 
 .head .ikone{
-    margin-bottom: 182px;
+    margin-bottom: 133px;
+    margin-top: 182px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
 .head .ikone img{
-    margin: 0px 54px;
+    margin: 0px 54px;    
 }
 
 /* section-2 */
@@ -855,7 +870,7 @@
     background-color: #FEB301;
     border-radius: 10px;
     text-align: center;
-    padding-top: 21px;
+    padding-top: 22.5px;
     box-sizing: border-box;
     cursor: pointer;
     margin-left: -23px;
