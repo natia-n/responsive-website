@@ -189,6 +189,11 @@
     color: #7E92AC;
 }
 
+.section-2 .about-us{
+    position: relative;
+    margin: auto;
+}
+
 .section-2 .about-us .about{    
     display: inline-block;
     width: 414px;
@@ -197,14 +202,15 @@
     background-color: #FFFFFF;
     border-radius: 20px;
     margin: 131px 30px;
+    padding-left: 62px;
     box-shadow: 0px 20px 40px rgb(36 38 114 / 11%);
+    box-sizing: border-box;
 }
 
 .section-2 .about-us .relative{
     display: inline-block;
     position: relative;
-    margin-top: 87px;
-    margin-left: 62px;    
+    margin-top: 87px;   
 }
 
 .section-2 .about-us .backround-img{
@@ -250,7 +256,6 @@
     color:#000000;
     margin-top: 27px;
     margin-bottom: 21px;
-    margin-left: 62px;
 }
 
 .section-2 .about-us p{
@@ -258,8 +263,6 @@
     font-weight: normal;
     font-size: 16px;
     color: #7E92AC;
-    margin-left: 62px;
-    margin-right: 61px;
     line-height: 1.5;
 }
 
@@ -504,9 +507,14 @@
     margin: 8px;
     margin-top: 83px;
     margin-bottom: 88px;
+    cursor: pointer;
 }
 
-.section-6 .page .active{   
+.section-6 .page div:hover{   
+    background-color: #6736F9; 
+}
+
+.active{   
     background-color: #6736F9; 
 }
 
@@ -519,6 +527,7 @@
     text-align: center;
     padding-top: 118px;
     padding-bottom: 181px;
+    box-sizing: border-box;
 }
 
 .section-7 h2{
@@ -539,16 +548,19 @@
 }
 
 .section-7 .level{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 11px;
+    text-align: center;
+}
+
+.section-7 .page-2{
+    display: none;
 }
 
 .section-7 .level .level-1{
     width: 440px;
     background-color: #FCFDFF;
     border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .section-7 .level h2{
