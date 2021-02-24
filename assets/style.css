@@ -33,20 +33,19 @@
 }
 
 .head{
-    height: 854px;
+    height: 940px;
     background-image: url(./images/Mask\ Group\ 1.png); 
     background-position: center bottom;
     background-size: cover;
-    /* text-align: center; */
     padding: 0px 150px;
     box-sizing: border-box;
 }
 
-.head .nav{
-    display: inline-block;
+.head .nav{    
     margin-left: 150px;
     margin-top: 48px;
     vertical-align: top;
+    float: right;
 }
 
 .head .nav-2{

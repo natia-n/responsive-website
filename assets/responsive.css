@@ -20,8 +20,6 @@
         float: right;
         margin-top: 55px;
         width: 55px;
-        display: inline-block;
-        position: relative;
     }
 
     .head .nav-2 img{
@@ -65,7 +63,7 @@
     }
 
     .head .ikone{
-        margin-bottom: 150px;
+        margin-bottom: 181px;
         margin-top: 170px;
         gap: 30px;
     }
@@ -73,5 +71,226 @@
     .head .ikone img{
         margin: 0px;
     }
-
 }    
+
+@media (max-width: 1366px){    
+    .head .section-1 h1{        
+        font-size: 70px;
+    }
+
+    .head .section-1 button{
+        width: 180px;
+        height: 53px;
+    }
+
+    .head .section-1 .yelow{
+        margin-right: 50px;
+    }
+
+    .head  .image{
+        width: 750px;
+    }
+
+    .head .ikone{
+        margin-top: 150px;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1024px){    
+    .head{        
+        padding: 0px 100px;
+        height: 650px;
+    }
+
+    .head  .image{
+        width: 580px;
+    }
+
+    .head .logo{
+        width: 50px;
+    }
+
+    .head .logo img{
+        width: 100%;
+    }
+
+    .head .nav-2{
+        width: 45px;
+    }
+
+    .head .logo span{
+        display: none;
+    }
+
+    .head .section-1 h1{        
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+
+    .head .section-1 p{        
+        font-size: 16px;
+    }
+
+    .head .section-1 button{
+        width: 150px;
+        height: 40px;
+        font-size: 16px;       
+    }
+
+    .head .section-1 .yelow{
+        margin-right: 40px;
+    }
+
+    .head .ikone{
+        margin-top: 120px;
+        gap: 103px;
+    }
+
+    .head .ikone img{
+        width: 200px;
+    }
+
+    .head .section-1{
+        margin-bottom: 70px;
+    }
+}    
+
+
+@media (max-width: 800px){    
+    .head{        
+        padding: 0px 40px;       
+    }
+
+    .head .section-1 {
+        width: 390px;
+        margin: 0 auto;
+    }
+
+    .head .section-1 h1{        
+        font-size: 35px;        
+    }
+
+    .head .nav-2 .manu a{
+        font-size: 16px;
+    } 
+
+    .head .image{   
+        width: 505px;     
+        margin-top: 70px;  
+        margin-bottom: 150px;      
+    }
+
+    .head .ikone{
+        gap: 70px;
+        width: 500px;
+        margin: auto;
+    }
+
+    .head .ikone img{
+        width: 160px;
+    }
+        
+}    
+
+@media (max-width: 600px){    
+    .head{        
+        padding: 0px 10px;  
+        height: 610px;     
+    } 
+    
+    .head .logo{
+        width: 39px;
+        margin-left: 26px;
+    }
+    .head .nav-2{
+        width: 26px;
+        margin-right: 28px;
+    }
+
+    .head .section-1 h1{        
+        font-size: 26px;        
+    }
+
+    .head .section-1 {
+        width: 329px;
+    }
+
+    .head .section-1 p{
+        font-size: 12px;
+        margin-top: 51px;
+        margin-bottom: 17px;
+    }
+
+    .head .section-1 button{
+        margin-top: 31px;
+    }
+
+    .head .section-1 .yelow{
+        margin-right: 13px;
+    }
+
+       .head .nav-2 .manu a{
+        font-size: 14px;
+    }   
+
+    .head .nav-2 .manu{
+        width: 180px;
+        margin-left: -222px;
+    }
+
+    .head .section-1 button{
+        width: 106px;
+        height: 33px;
+        font-size: 12px;
+    }
+
+    .head .image{   
+        width: 414px;     
+        margin-top: 48px;   
+        margin-bottom: 72px;
+    }
+
+    .head .ikone{
+        width: 340px;
+        gap: 43px;
+    }
+
+    .head .ikone img{
+        width: 93px;
+    }
+      
+}
+
+@media (max-width: 490px){ 
+    .head{
+        height: 575px;
+    }
+    
+    .head .image{   
+        width: 329px;     
+    }
+}    
+
+@media (max-width: 366px){  
+    .head{
+        height: 560px;
+    }
+    
+    .head .image{   
+        width: 280px;  
+    }
+
+    .head .section-1{   
+        width: 280px;  
+    }
+
+    .head .ikone{   
+        width: 280px;  
+    }
+
+    .head .section-1 button {
+        width: 90px;
+        height: 29px;
+    }
+} 
