@@ -266,6 +266,10 @@
     line-height: 1.5;
 }
 
+.section-2 .page-3{
+    display: none;
+}
+
 /*section-3*/
 
 .section-3{
@@ -291,12 +295,15 @@
     box-shadow: 0px 20px 40px rgb(36 38 114 / 11%);  
 }
 
+.section-3 .text{
+    margin-top: 113px;  
+}
+
 .section-3 .text h3{
     font-family: segoe-ui;
     font-weight: bold;
     font-size: 64px;
-    color:#040404;  
-    margin-top: 113px;  
+    color:#040404;   
     margin-bottom: 42px;
 }
 
