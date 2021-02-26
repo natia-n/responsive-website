@@ -233,6 +233,26 @@
         height: 58px;
     }
 
+    /* section-4 */
+    .section-4 {
+        padding-top: 93px;
+        padding-bottom: 204px;
+        height: auto;
+    }
+
+    .section-4 h2 {
+        font-size: 50px;
+    }
+
+    .section-4 p {
+        font-size: 17px;
+    }
+
+    .section-4 .yelow {
+        font-size: 17px;
+        width: 190px;
+        height: 58px;
+    }
     
 }
 
@@ -362,6 +382,28 @@
         height: 49px;
         margin-top: 40px;
     }
+
+    /* section-4 */
+    .section-4 {
+        padding-top: 70px;
+        padding-bottom: 170px;
+        height: auto;
+    }
+
+    .section-4 h2 {
+        font-size: 40px;
+    }
+
+    .section-4 p {
+        font-size: 15px;
+    }
+
+    .section-4 .yelow {
+        font-size: 15px;
+        width: 160px;
+        height: 49px;
+    }
+
 }    
 
 
@@ -445,6 +487,28 @@
     }
 
     .section-3 .text button {
+        font-size: 14px;
+        width: 135px;
+        height: 41px;
+        margin-top: 35px;
+    }
+
+    /* section-4 */
+    .section-4 {
+        padding-top: 50px;
+        padding-bottom: 135px;
+    }
+
+    .section-4 h2 {
+        font-size: 32px;
+        margin-bottom: 35px;
+    }
+
+    .section-4 p {
+        font-size: 14px;
+    }
+
+    .section-4 .yelow {
         font-size: 14px;
         width: 135px;
         height: 41px;
@@ -596,6 +660,28 @@
         height: 33px;
         margin-top: 26px;
     }
+
+    /* section-4 */
+    .section-4 {
+        padding-top: 41px;
+        padding-bottom: 100px;
+    }
+
+    .section-4 h2 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .section-4 p {
+        font-size: 12px;
+    }
+
+    .section-4 .yelow {
+        font-size: 12px;
+        width: 106px;
+        height: 33px;
+        margin-top: 20px;
+    }
       
 }
 
@@ -713,5 +799,27 @@
 
     .section-3 .text button {
         margin-top: 15px;
+    }
+
+    /* section-4 */
+    .section-4 {
+        padding-top: 34px;
+        padding-bottom: 90px;
+    }
+
+    .section-4 h2 {
+        font-size: 26px;
+        margin-bottom: 14px;
+    }
+
+    .section-4 p {
+        font-size: 12px;
+    }
+
+    .section-4 .yelow {
+        font-size: 12px;
+        width: 106px;
+        height: 33px;
+        margin-top: 20px;
     }
 } 
